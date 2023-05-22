@@ -1,0 +1,26 @@
+{
+	"token": "MTExMDEzNjk2NDA4NDEzODAxNQ.GIIf1f.KIKFLWUQhlfi8SfuCNIzHRAX3SnxpsyDDQr2gE",
+	"guildID": "1110134906199216130",
+	"roleID": "1110162495265583116",
+        "roleID1": "1110162495265583116",
+        "roleID2": "1110162495265583116",
+        "roleID3": "1110162495265583116",
+        "roleID4": "1110162495265583116",
+        "roleID5": "1110162495265583116",
+        "roleID6": "1110162495265583116",
+        "roleID7": "1110162495265583116",
+	"ownerID": {
+        "ownerID1": "1015438971611926630",
+        "ownerID2": "1015438971611926630"
+    },
+	"commandroom": "1110134907864363111",
+        "guildID1": "1110134906199216130",
+	"versionbot": "OverKill",
+	"photovip": ["https://media1.giphy.com/media/eSPEwBxWml5O8OZQAD/giphy.gif?cid=ecf05e47n7y42oi5ht6qk2m64g4dywht4epj2hscw0r3mk4m&rid=giphy.gif&ct=g"],
+        "photovip1": ["https://media0.giphy.com/media/2SvePlXEmRak8/giphy.gif?cid=ecf05e47dlcd1zjo068tk28qxdngposkt4b42f7696cs0cdu&rid=giphy.gif&ct=g"],
+        "photovip2": ["https://media0.giphy.com/media/jjl8k7kJjJUis/giphy.gif?cid=ecf05e47s3y0s21z6lkhmviueuyd1ngdaop8249rkztxtlxp&rid=giphy.gif&ct=g"],
+        "photovip3": ["https://media3.giphy.com/media/vdjh02z3G0IvZRuzAA/giphy.gif?cid=ecf05e4703fo2lqlavhmy29xyhiufsz0keyweugjj6jj5r43&rid=giphy.gif&ct=g"],
+        "photovip4": ["https://media2.giphy.com/media/bqSkJ4IwNcoZG/giphy.gif?cid=ecf05e47gtxeyjbo9zazna71r3o1u15nhdej3jbaq92qq6ov&rid=giphy.gif&ct=g"],
+        "photovip5": ["https://media4.giphy.com/media/ohnyWaaOiVBcuhRrA9/giphy.gif?cid=ecf05e474ilrjgcnqxok6ht36ui0yk9tfu5lh4q4nu77tj1r&rid=giphy.gif&ct=g"],
+	"mongodb": "mongodb+srv://HyuXingum:Bumbobi2008!@huyxingum.v5rflcb.mongodb.net/?retryWrites=true&w=majority"
+}
