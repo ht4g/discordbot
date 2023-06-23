@@ -10,5 +10,5 @@ module.exports = (client) => {
         client.on(eventName, event.bind(null, client));
         count++;
     }
-    console.log(`Đã tải ${count} event!`);
+    console.log(`Đã tải ${count} Event !`);
 }

@@ -22,7 +22,7 @@ let POSTDATA = undefined;
 
 if (process.argv.length < 8){
     console.log('HTTP/2 (Support HTTPS Only)');
-    console.log('node ' + file + ' <MODE> <host> <proxies> <duration> <rate> <threads> (options cookie="" postdata="" randomstring="" headerdata="")');
+    console.log('node ' + file + ' <GET/POST> <URL> <proxies> <duration> <rate> <threads> (options cookie="" postdata="" randomstring="" headerdata="")');
     //console.log(process.argv.length);
     process.exit(0);
 }

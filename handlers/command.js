@@ -16,5 +16,5 @@ module.exports = (client) => {
         }
     });
 
-    console.log(`Đã tải ${count} lệnh!`);
+    console.log(`Đã tải ${count} lệnh Normal !`);
 }

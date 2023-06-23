@@ -13,15 +13,6 @@ client.cooldowns = new Collection();
     return require(`${'./handlers/'}${_0x4272x7}${''}`)(client)
 });
 client.on('ready', (_0x4272x8) => {
-    console.log('OverKill' ['red']);
-    console.log('OverKill' ['red']);
-    console.log('OverKill' ['red']);
-    console.log('OverKill' ['red']);
-    console.log('OverKill' ['red']);
-    console.log('OverKill' ['red']);
-    console.log('OverKill' ['red']);
-    console.log('OverKill' ['red']);
-    console.log('OverKill' ['red']);
-    console.log('OverKill' ['red'])
+    console.log('OverKill!!!!' ['red']);
 });
 client.login(token);

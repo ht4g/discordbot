@@ -24,5 +24,5 @@ module.exports = (client) => {
         // await client.application.commands.set(slashCommands);
     });
     
-    console.log(`Đã tải ${count} lệnh Slash!`);
+    console.log(`Đã tải ${count} lệnh Slash !`);
 }
