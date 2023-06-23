@@ -36,7 +36,7 @@ module.exports = {
 
 `)
 .setColor("RANDOM")
-            .setFooter({ text: "© » JubiChan" })
+            .setFooter({ text: "© » OverKill" })
             .setTimestamp()
         interaction.reply({ embeds: [embed] });
     },
