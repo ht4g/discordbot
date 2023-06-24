@@ -21,7 +21,7 @@ module.exports = {
       .setTitle(`\`CẬP NHẬT PROXY\``)
       .setDescription(`\n**Cập nhật proxy thành công !**\n\n`)
       .setColor('RANDOM')
-      .setFooter('© Developer: overkill3101')
+      .setFooter('© Developer: OverKill')
       .setTimestamp();
 
     interaction.reply({ embeds: [embed] });

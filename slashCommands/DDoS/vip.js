@@ -126,8 +126,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-              ['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+              ['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -168,8 +168,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-              ['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+              ['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -210,8 +210,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -252,8 +252,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -294,8 +294,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -336,8 +336,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -378,8 +378,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -420,8 +420,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -462,8 +462,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -504,8 +504,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -546,8 +546,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -588,8 +588,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -630,8 +630,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -672,8 +672,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -714,8 +714,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: OverKill', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {

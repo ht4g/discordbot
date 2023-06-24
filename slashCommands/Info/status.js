@@ -87,7 +87,7 @@ module.exports = {
           inline: true,
         },
       ])
-      .setFooter('© Developer: overkill3101', img)
+      .setFooter('© Developer: OverKill', img)
       .setTimestamp();
     interaction.editReply({ embeds: [statusEmbed] });
   })
