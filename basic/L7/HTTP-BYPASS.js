@@ -9,9 +9,9 @@ randomByte = function() {
 }
 
 if (process.argv.length <= 2) {
-    console.log("node HTTP-BYPASS.js url time");
-    console.log("Edit by AKANINE");
-	console.log("By Pass Cf By AKANINE")
+    console.log("node HTTP-BYPASS.js [URL] [TIME]");
+    console.log("Created by OverKill");
+	console.log("Bypass CloudFlare")
     process.exit(-1);
 }
 var url = process.argv[2];

@@ -1,1 +1,157 @@
-var _0x7494=["\x64\x69\x73\x63\x6F\x72\x64\x2E\x6A\x73","\x2E\x2E\x2F\x2E\x2E\x2F\x61\x79\x61\x72\x6C\x61\x72\x2E\x6A\x73\x6F\x6E","\x68\x74\x74\x70\x73","\x66\x73","\x6D\x6F\x6D\x65\x6E\x74","\x76\x65\x72\x73\x69\x6F\x6E\x62\x6F\x74","\x69\x6D\x67","\x65\x78\x70\x6F\x72\x74\x73","\x66\x61\x73\x68\x63\x6F\x6D\x6D\x61\x6E\x64","\x53\u1EED\x20\x64\u1EE5\x6E\x67\x20\x6C\u1EC7\x6E\x68\x20\x6E\x68\x61\x6E\x68","\x43\x48\x41\x54\x5F\x49\x4E\x50\x55\x54","\x41\x44\x4D\x49\x4E\x49\x53\x54\x52\x41\x54\x4F\x52","\x68\x61\x73","\x70\x65\x72\x6D\x69\x73\x73\x69\x6F\x6E\x73","\x6D\x65\x6D\x62\x65\x72","\x42\u1EA1\x6E\x20\x6B\x68\xF4\x6E\x67\x20\x63\xF3\x20\x71\x75\x79\u1EC1\x6E\x20\u0111\u1EC3\x20\x64\xF9\x6E\x67\x20\x6C\u1EC7\x6E\x68\x20\x6E\xE0\x79\x21","\x72\x65\x70\x6C\x79","\uD83D\uDCBB","\x73\x65\x74\x45\x6D\x6F\x6A\x69","\x53\x55\x43\x43\x45\x53\x53","\x73\x65\x74\x53\x74\x79\x6C\x65","\x52\x65\x6C\x6F\x61\x64\x20\x50\x72\x6F\x78\x79","\x73\x65\x74\x4C\x61\x62\x65\x6C","\x70\x72\x6F\x78\x79","\x73\x65\x74\x43\x75\x73\x74\x6F\x6D\x49\x64","\uD83D\uDED1","\x44\x41\x4E\x47\x45\x52","\x53\x74\x6F\x70\x20\x41\x6C\x6C\x20\x41\x74\x74\x61\x63\x6B","\x73\x74\x6F\x70","\x61\x64\x64\x43\x6F\x6D\x70\x6F\x6E\x65\x6E\x74\x73","\x73\x65\x74\x54\x69\x6D\x65\x73\x74\x61\x6D\x70","\xA9\x20\x44\x65\x76\x65\x6C\x6F\x70\x65\x72\x3A\x20\x4A\x75\x62\x69\x23\x32\x30\x31\x30","\x73\x65\x74\x46\x6F\x6F\x74\x65\x72","\x60\x60\x60\x63\x73\x73\x0A\x5B\x20\x53\u1EEC\x20\x44\u1EE4\x4E\x47\x20\x4C\u1EC6\x4E\x48\x20\x4E\x48\x41\x4E\x48\x20\x5D\x0A\x60\x60\x60","\x73\x65\x74\x44\x65\x73\x63\x72\x69\x70\x74\x69\x6F\x6E","\x73\x65\x74\x54\x69\x74\x6C\x65","\x52\x41\x4E\x44\x4F\x4D","\x73\x65\x74\x43\x6F\x6C\x6F\x72","\x69\x6E\x74\x65\x72\x61\x63\x74\x69\x6F\x6E\x43\x72\x65\x61\x74\x65","\x69\x73\x42\x75\x74\x74\x6F\x6E","\x63\x75\x73\x74\x6F\x6D\x49\x64","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x63\x64\x6E\x2E\x64\x69\x73\x63\x6F\x72\x64\x61\x70\x70\x2E\x63\x6F\x6D\x2F\x61\x74\x74\x61\x63\x68\x6D\x65\x6E\x74\x73\x2F\x39\x33\x34\x37\x39\x36\x34\x30\x31\x37\x36\x30\x36\x36\x39\x37\x36\x39\x2F\x31\x30\x33\x33\x33\x39\x31\x34\x33\x31\x31\x39\x34\x32\x34\x37\x32\x34\x30\x2F\x70\x72\x6F\x78\x69\x65\x73\x2E\x74\x78\x74","\x70\x72\x6F\x78\x69\x65\x73\x2E\x74\x78\x74","\x63\x72\x65\x61\x74\x65\x57\x72\x69\x74\x65\x53\x74\x72\x65\x61\x6D","\x20","\x77\x72\x69\x74\x65\x46\x69\x6C\x65\x53\x79\x6E\x63","\x70\x69\x70\x65","","\x5B","\x6E\x6F\x77","\x75\x74\x63","\x5D\x20\x5B\x2A\x5D\x20\x43\u1EAD\x70\x20\x6E\x68\u1EAD\x74\x20\x74\x68\xE0\x6E\x68\x20\x63\xF4\x6E\x67\x20\x63\u01A1\x20\x73\u1EDF\x20\x64\u1EEF\x20\x6C\x69\u1EC7\x75\x20\x70\x72\x6F\x78\x79\x2E","\x6C\x6F\x67","\x67\x65\x74","\xA9\x20\x4A\x75\x62\x69\x23\x32\x30\x31\x30","\x50\x72\x6F\x78\x79\x20\u0111\u01B0\u1EE3\x63\x20\x63\xE0\x69\x20\u0111\u1EB7\x74\x20\x74\x72\x6F\x6E\x67\x20\x74\u1EAD\x70\x20\x74\x69\x6E\x3A\x20\x2A\x2A","\x70\x61\x74\x68","\x2A\x2A","\x70\x72\x6F\x6D\x69\x73\x69\x66\x79","\x75\x74\x69\x6C","\x65\x78\x65\x63","\x63\x68\x69\x6C\x64\x5F\x70\x72\x6F\x63\x65\x73\x73","\x74\x61\x73\x6B\x6B\x69\x6C\x6C\x20\x2F\x66\x20\x2F\x69\x6D\x20\x6E\x6F\x64\x65\x2E\x65\x78\x65","\x44\u1EEB\x6E\x67\x20\x6C\u1EA1\x69\x20\x74\u1EA5\x74\x20\x63\u1EA3\x20\x63\x75\u1ED9\x63\x20\x74\u1EA5\x6E\x20\x63\xF4\x6E\x67\x3A","\x69\x64","\x67\x75\x69\x6C\x64","\x60\x60\x60\x63\x73\x73\x0A\x5B\x20\x54\u1EA4\x54\x20\x43\u1EA2\x20\x43\x55\u1ED8\x43\x20\x54\u1EA4\x4E\x20\x43\xD4\x4E\x47\x20\u0110\xC3\x20\x44\u1EEA\x4E\x47\x20\x4C\u1EA0\x49\x20\x5D\x0A\x60\x60\x60","\x6F\x6E"];const {MessageEmbed,MessageActionRow,MessageButton}=require(_0x7494[0]);const ayarlar=require(_0x7494[1]);const https=require(_0x7494[2]);const fs=require(_0x7494[3]);const moment=require(_0x7494[4]);var version=ayarlar[_0x7494[5]];var img=ayarlar[_0x7494[6]];module[_0x7494[7]]= {name:_0x7494[8],description:_0x7494[9],type:_0x7494[10],run:async (_0x5188x7,_0x5188x8)=>{if(!_0x5188x8[_0x7494[14]][_0x7494[13]][_0x7494[12]](_0x7494[11])){return _0x5188x8[_0x7494[16]](_0x7494[15])};const _0x5188x9= new MessageActionRow()[_0x7494[29]]( new MessageButton()[_0x7494[24]](_0x7494[23])[_0x7494[22]](_0x7494[21])[_0x7494[20]](_0x7494[19])[_0x7494[18]](_0x7494[17]), new MessageButton()[_0x7494[24]](_0x7494[28])[_0x7494[22]](_0x7494[27])[_0x7494[20]](_0x7494[26])[_0x7494[18]](_0x7494[25]));const _0x5188xa= new MessageEmbed()[_0x7494[37]](_0x7494[36])[_0x7494[35]](version)[_0x7494[34]](_0x7494[33])[_0x7494[32]](_0x7494[31],img)[_0x7494[30]](); await _0x5188x8[_0x7494[16]]({embeds:[_0x5188xa],components:[_0x5188x9]});_0x5188x7[_0x7494[67]](_0x7494[38],async (_0x5188x8)=>{if(!_0x5188x8[_0x7494[39]]()){return};if(_0x5188x8[_0x7494[40]]=== _0x7494[23]){var _0x5188xb=_0x7494[41];const _0x5188xc=fs[_0x7494[43]](_0x7494[42]);fs[_0x7494[45]](_0x7494[42],_0x7494[44]);const _0x5188xd=https[_0x7494[53]](_0x5188xb,function(_0x5188xe){_0x5188xe[_0x7494[46]](_0x5188xc);console[_0x7494[52]](`${_0x7494[47]}${_0x7494[48]}${_0x7494[47]}${moment[_0x7494[50]](Date[_0x7494[49]]())}${_0x7494[47]}${_0x7494[51]}${_0x7494[47]}`)});const _0x5188xa= new MessageEmbed()[_0x7494[35]](version)[_0x7494[37]](_0x7494[36])[_0x7494[34]](`${_0x7494[47]}${_0x7494[55]}${_0x7494[47]}${_0x5188xc[_0x7494[56]]}${_0x7494[47]}${_0x7494[57]}${_0x7494[47]}`)[_0x7494[32]](_0x7494[54],img)[_0x7494[30]]();const _0x5188xf=require(_0x7494[59])[_0x7494[58]](setTimeout); await _0x5188xf(1000); await _0x5188x8[_0x7494[16]]({embeds:[_0x5188xa],ephemeral:true})};if(_0x5188x8[_0x7494[40]]=== _0x7494[28]){var _0x5188x10=require(_0x7494[61])[_0x7494[60]];_0x5188x10(`${_0x7494[47]}${_0x7494[62]}${_0x7494[47]}`,(_0x5188x11,_0x5188x12,_0x5188x13)=>{});console[_0x7494[52]](_0x7494[63]+ _0x5188x8[_0x7494[65]][_0x7494[64]]);const _0x5188xa= new MessageEmbed()[_0x7494[37]](_0x7494[36])[_0x7494[35]](version)[_0x7494[34]](_0x7494[66])[_0x7494[32]](_0x7494[31],img)[_0x7494[30]]();const _0x5188xf=require(_0x7494[59])[_0x7494[58]](setTimeout); await _0x5188xf(1000); await _0x5188x8[_0x7494[16]]({embeds:[_0x5188xa],ephemeral:true})}})}}
+var chuoi = [
+  "discord.js",//0
+  "../../ayarlar.json",//1
+  "https",//2
+  "fs",//3
+  "moment",//4
+  "versionbot",//5
+  "img",//6
+  "exports",//7
+  "fashcommand",//8
+  "\x53\u1EED\x20\x64\u1EE5\x6E\x67\x20\x6C\u1EC7\x6E\x68\x20\x6E\x68\x61\x6E\x68",//9 sử dụng lệnh nhanh
+  "CHAT_INPUT", //10
+  "ADMINISTRATOR", //11
+  "has",//12
+  "permissions", //13
+  "member",//14
+  "\x42\u1EA1\x6E\x20\x6B\x68\xF4\x6E\x67\x20\x63\xF3\x20\x71\x75\x79\u1EC1\x6E\x20\u0111\u1EC3\x20\x64\xF9\x6E\x67\x20\x6C\u1EC7\x6E\x68\x20\x6E\xE0\x79\x21", //15 bạn không có quyền sử dụng lệnh này
+  "reply",//16
+  "💻",//17
+  "setEmoji",//18
+  "SUCCESS",//19
+  "setStyle",//20
+  "Reload Proxy",//21
+  "setLabel",//22
+  "proxy",//23
+  "setCustomId",//24
+  "🛑",//25
+  "DANGER",//26
+  "Stop All Attack",//27
+  "stop",//28
+  "addComponents",//29
+  "setTimestamp",//30
+  "\xA9\x20\x44\x65\x76\x65\x6C\x6F\x70\x65\x72\x3A\x20\x6F\x76\x65\x72\x6B\x69\x6C\x6C\x33\x31\x30\x31", //31 developer overkill
+  "setFooter",//32
+  "\x60\x60\x60\x63\x73\x73\x0A\x5B\x20\x53\u1EEC\x20\x44\u1EE4\x4E\x47\x20\x4C\u1EC6\x4E\x48\x20\x4E\x48\x41\x4E\x48\x20\x5D\x0A\x60\x60\x60", //33 sử dụng lệnh nhanh
+  "setDescription",//34
+  "setTitle",//35
+  "RANDOM",//36
+  "setColor",//37
+  "interactionCreate",//38
+  "isButton",//39
+  "customId",//40
+  "https://cdn.discordapp.com/attachments/934796401760669769/1033391431194247240/proxies.txt",//41
+  "proxies.txt",//42
+  "createWriteStream",//43
+  "\x20",//44
+  "writeFileSync",//45
+  "pipe",//46
+  "",//47
+  "[",//48
+  "now",//49
+  "utc",//50
+  "\x5D\x20\x5B\x2A\x5D\x20\x43\u1EAD\x70\x20\x6E\x68\u1EAD\x74\x20\x74\x68\xE0\x6E\x68\x20\x63\xF4\x6E\x67\x20\x63\u01A1\x20\x73\u1EDF\x20\x64\u1EEF\x20\x6C\x69\u1EC7\x75\x20\x70\x72\x6F\x78\x79\x2E", //51 cập nhật thành công log
+  "log",//52
+  "get",//53
+  "\xA9\x20\x6F\x76\x65\x72\x6B\x69\x6C\x33\x31\x30\x31", //54 overkill
+  "\x50\x72\x6F\x78\x79\x20\u0111\u01B0\u1EE3\x63\x20\x63\xE0\x69\x20\u0111\u1EB7\x74\x20\x74\x72\x6F\x6E\x67\x20\x74\u1EAD\x70\x20\x74\x69\x6E\x3A\x20\x2A\x2A", //55 Proxy được cài đặt trong tập tin: proxies.txt
+  "path",//56
+  "**",//57
+  "promisify",//58
+  "util",//59
+  "exec",//60
+  "child_process",//61
+  "pkill -f '/home/codespace/nvm/current/bin/node'",//62
+  "\x44\u1EEB\x6E\x67\x20\x6C\u1EA1\x69\x20\x74\u1EA5\x74\x20\x63\u1EA3\x20\x63\x75\u1ED9\x63\x20\x74\u1EA5\x6E\x20\x63\xF4\x6E\x67\x3A", //63 TẤT CẢ CUỘC TẤN CÔNG ĐÃ DỪNG LẠI log
+  "id",//64
+  "guild",//65
+  "\x60\x60\x60\x63\x73\x73\x0A\x5B\x20\x54\u1EA4\x54\x20\x43\u1EA2\x20\x43\x55\u1ED8\x43\x20\x54\u1EA4\x4E\x20\x43\xD4\x4E\x47\x20\u0110\xC3\x20\x44\u1EEA\x4E\x47\x20\x4C\u1EA0\x49\x20\x5D\x0A\x60\x60\x60", //66 [ TẤT CẢ CUỘC TẤN CÔNG ĐÃ DỪNG LẠI ]
+  "on",//67
+];
+const { MessageEmbed, MessageActionRow, MessageButton } = require('discord.js');
+const ayarlar = require('../../ayarlar.json');
+const https = require('https');
+const fs = require('fs');
+const moment = require('moment');
+var version = ayarlar['versionbot'];
+var img = ayarlar['img'];
+module['exports'] = {
+  name: 'fashcommand',
+  description: '\x53\u1EED\x20\x64\u1EE5\x6E\x67\x20\x6C\u1EC7\x6E\x68\x20\x6E\x68\x61\x6E\x68',
+  type: 'CHAT_INPUT',
+  run: async (_0x5188x7, _0x5188x8) => {
+    if (!_0x5188x8[chuoi[14]][chuoi[13]][chuoi[12]](chuoi[11])) {
+      return _0x5188x8[chuoi[16]](chuoi[15]);
+    }
+    const _0x5188x9 = new MessageActionRow()[chuoi[29]](
+      new MessageButton()
+        [chuoi[24]](chuoi[23])
+        [chuoi[22]](chuoi[21])
+        [chuoi[20]](chuoi[19])
+        [chuoi[18]](chuoi[17]),
+      new MessageButton()
+        [chuoi[24]](chuoi[28])
+        [chuoi[22]](chuoi[27])
+        [chuoi[20]](chuoi[26])
+        [chuoi[18]](chuoi[25])
+    );
+    const _0x5188xa = new MessageEmbed()
+      [chuoi[37]](chuoi[36])
+      [chuoi[35]](version)
+      [chuoi[34]](chuoi[33])
+      [chuoi[32]](chuoi[31], img)
+      [chuoi[30]]();
+    await _0x5188x8[chuoi[16]]({
+      embeds: [_0x5188xa],
+      components: [_0x5188x9],
+    });
+    _0x5188x7[chuoi[67]](chuoi[38], async (_0x5188x8) => {
+      if (!_0x5188x8[chuoi[39]]()) {
+        return;
+      }
+      if (_0x5188x8[chuoi[40]] === chuoi[23]) {
+        var _0x5188xb = chuoi[41];
+        const _0x5188xc = fs[chuoi[43]](chuoi[42]);
+        fs[chuoi[45]](chuoi[42], chuoi[44]);
+        const _0x5188xd = https[chuoi[53]](_0x5188xb, function (_0x5188xe) {
+          _0x5188xe[chuoi[46]](_0x5188xc);
+          console[chuoi[52]](
+            `${chuoi[47]}${chuoi[48]}${chuoi[47]}${moment[chuoi[50]](
+              Date[chuoi[49]]()
+            )}${chuoi[47]}${chuoi[51]}${chuoi[47]}`
+          );
+        });
+        const _0x5188xa = new MessageEmbed()
+          [chuoi[35]](version)
+          [chuoi[37]](chuoi[36])
+          [chuoi[34]](
+            `${chuoi[47]}${chuoi[55]}${chuoi[47]}${
+              _0x5188xc[chuoi[56]]
+            }${chuoi[47]}${chuoi[57]}${chuoi[47]}`
+          )
+          [chuoi[32]](chuoi[54], img)
+          [chuoi[30]]();
+        const _0x5188xf = require(chuoi[59])[chuoi[58]](setTimeout);
+        await _0x5188xf(1000);
+        await _0x5188x8[chuoi[16]]({ embeds: [_0x5188xa], ephemeral: true });
+      }
+      if (_0x5188x8[chuoi[40]] === chuoi[28]) {
+        var _0x5188x10 = require(chuoi[61])[chuoi[60]];
+        _0x5188x10(
+          `${chuoi[47]}${chuoi[62]}${chuoi[47]}`,
+          (_0x5188x11, _0x5188x12, _0x5188x13) => {}
+        );
+        console[chuoi[52]](chuoi[63] + _0x5188x8[chuoi[65]][chuoi[64]]);
+        const _0x5188xa = new MessageEmbed()
+          [chuoi[37]](chuoi[36])
+          [chuoi[35]](version)
+          [chuoi[34]](chuoi[66])
+          [chuoi[32]](chuoi[31], img)
+          [chuoi[30]]();
+        const _0x5188xf = require(chuoi[59])[chuoi[58]](setTimeout);
+        await _0x5188xf(1000);
+        await _0x5188x8[chuoi[16]]({ embeds: [_0x5188xa], ephemeral: true });
+      }
+    });
+  },
+};
