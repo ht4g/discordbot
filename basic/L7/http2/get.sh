@@ -1,1 +1,0 @@
-node checkproxy.js newproxy.txt http proxy.txt 5000 
