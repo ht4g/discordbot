@@ -29,8 +29,8 @@ if (!validproxy) {
     process.exit();
 }
 if (process.argv.length < 5) {
-    console.log("\x1b[31m error\x1b[37m: wrong usage!");
-    console.log("\x1b[36m usage\x1b[37m: node "+ path.basename(__filename) +" <proxylist to check> <type of proxy> <output file> <timeout>\x1b[0m");
+    console.log("\x1b[31m ERROR\x1b[37m: wrong usage!");
+    console.log("\x1b[36m USAGE\x1b[37m: node "+ path.basename(__filename) +" <proxylist to check> <type of proxy> <output file> <timeout>\x1b[0m");
     process.exit(0);
 }
 
