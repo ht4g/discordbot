@@ -7,7 +7,7 @@ const cluster = require('cluster')
 const fakeua = require('fake-useragent');
 const request = require('cloudscraper');
 if (process.argv.length !== 6){
-    console.log(`Cách sử dụng: node raw.js [URL] [TIME] [RAW/PROXY/STORM] [THREADS]`),
+    console.log(`Cách sử dụng: node raw.js [URL] [TIME] [RAW/PROXY/STORM/UAM] [THREADS]`),
     process.exit(0);
 } else {
     main();

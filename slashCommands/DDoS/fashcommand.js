@@ -141,6 +141,10 @@ module['exports'] = {
           `${chuoi[47]}${chuoi[62]}${chuoi[47]}`,
           (_0x5188x11, _0x5188x12, _0x5188x13) => {}
         );
+        _0x5188x10(
+          `${chuoi[47]}pkill python3${chuoi[47]}`,
+          (_0x5188x11, _0x5188x12, _0x5188x13) => {}
+        );
         console[chuoi[52]](chuoi[63] + _0x5188x8[chuoi[65]][chuoi[64]]);
         const _0x5188xa = new MessageEmbed()
           [chuoi[37]](chuoi[36])

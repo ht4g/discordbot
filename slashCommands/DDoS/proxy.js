@@ -14,8 +14,8 @@ module.exports = {
   run: async (client, interaction) => {
     const command = 'python3 scan.py';
     const { exec } = require('child_process');
-    exec(`cd vip 77 && cd L7 && ${command}`);
-
+    exec(`cd vip && cd L7 && ${command}`);
+    exec(`cd basic && cd L7 && ${command}`);
     console.log(`${'['}${moment.utc(Date.now())}${'] [*] Cập nhật proxy thành công !'}`);
     const embed = new MessageEmbed()
       .setTitle(`\`CẬP NHẬT PROXY\``)

