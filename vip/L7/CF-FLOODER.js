@@ -19,7 +19,7 @@ let COOKIES = undefined;
 let POSTDATA = undefined;
 
 if (process.argv.length < 8){
-    console.log('[CF-FLOODER]   |   [@2k._tyler]');
+    console.log('[CF-FLOODER]   |   Created by OverKill');
     console.log('node CF-FLOODER.js [Method] [Target] [Proxy List] [Time] [Requests Per IP] [Threads]');
     process.exit(0);
 }
