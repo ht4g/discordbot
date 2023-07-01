@@ -683,7 +683,7 @@ var _0x2fad = [
   "Mozilla/5.0\x20(X11;\x20Linux\x20x86_64)\x20AppleWebKit/535.2\x20(KHTML,\x20like\x20Gecko)\x20Ubuntu/11.04\x20Chromium/15.0.871.0\x20Chrome/15.0.871.0\x20Safari/535.2",
   "Mozilla/5.0\x20(Windows;\x20U;\x20;\x20en-NZ)\x20AppleWebKit/527+\x20(KHTML,\x20like\x20Gecko,\x20Safari/419.3)\x20Arora/0.8.0",
   "Mozilla/5.0\x20(Windows;\x20U;\x20Windows\x20NT\x206.0;\x20en-US)\x20AppleWebKit/530.5\x20(KHTML,\x20like\x20Gecko)\x20Chrome/2.0.172.23\x20Safari/530.5",
-  "node\x20HTTP-SOCKETS.js\x20url\x20req_per_ip\x20time",
+  "node\x20HTTP-SOCKET.js\x20[URL]\x20[REQ_PER_IP]\x20[TIME]",
   "Mozilla/5.0\x20(X11;\x20U;\x20Linux\x20x86_64;\x20en-US)\x20AppleWebKit/532.0\x20(KHTML,\x20like\x20Gecko)\x20Chrome/3.0.195.24\x20Safari/532.0",
   "Mozilla/5.0\x20(X11;\x20U;\x20Linux;\x20fi-FI)\x20AppleWebKit/527+\x20(KHTML,\x20like\x20Gecko,\x20Safari/419.3)\x20Arora/0.6\x20(Change:\x20754\x2046b659a)",
   "Mozilla/5.0\x20(X11;\x20Linux\x20amd64)\x20AppleWebKit/535.1\x20(KHTML,\x20like\x20Gecko)\x20Chrome/13.0.782.24\x20Safari/535.1",

@@ -116,7 +116,7 @@ let target = process.argv[2], time = process.argv[3], thread = process.argv[4];
 if (process.argv.length < 5) {
   console.log("\x1b[31m ERROR\x1b[37m: Nhập thiếu dữ liệu");
   console.log("\x1b[36m USAGE\x1b[37m: node " + file + " <target> <time> <thread> <proxies>");
-  console.log("\x1b[32m EXAMPLE\x1b[37m: node " + file + " <https://example.com 60 100 proxy.txt");
+  console.log("\x1b[32m EXAMPLE\x1b[37m: node " + file + " https://example.com 60 100 proxy.txt");
   console.log("\x1b[93m DDoS Script by:\x1b[34m OverKill ");
 
   process.exit();

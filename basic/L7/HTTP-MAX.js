@@ -1,3 +1,4 @@
+// node HTTP-MAX.js [URL] [TIME] [THREAD] [PROXYLIST]
 function _0xe9ac(_0x191fa3, _0x11b28a) {
   const _0x55efc4 = _0x55ef();
   return (
