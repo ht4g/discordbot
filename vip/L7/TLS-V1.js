@@ -16,7 +16,7 @@ process.setMaxListeners(0);
 
 
 if (process.argv.length < 7) {
-    console.log(`Usage: ${process.argv[1]} target time threads reqs proxyfile GET/PRI | MADE BY @MSIDSTRESS`)
+    console.log(`Usage: node TLS target time threads reqs proxyfile GET/PRI | MADE BY @MSIDSTRESS`)
     process.exit(1)
 }
 
