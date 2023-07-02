@@ -44,7 +44,7 @@ let POSTDATA = undefined;
 
 if (process.argv.length < 6) {
     console.log("\x1b[31m ERROR\x1b[37m: Nhập thiếu dữ liệu");
-    console.log('\x1b[36m USAGE\x1b[37m: node ' + file + ' <GET/POST> <url> <proxies> <time> <req_per_ip> <threads> (extra: cookie="" postdata="" randomstring="" headerdata="")');
+    console.log('\x1b[36m USAGE\x1b[37m: node ' + file + ' <GET/POST> <url> <proxies> <time> <req_per_ip> <threads> (options: cookie="" postdata="" randomstring="" headerdata="")');
     console.log("\x1b[32m EXAMPLE\x1b[37m: node CF-FLOODER.js GET https://example.com proxy.txt 60 100 100");
     console.log("\x1b[93m DDoS Script by:\x1b[34m OverKill ");
   

